@@ -12,7 +12,7 @@ using namespace std;
 
 class rational{
 private:
-    int num=0,den=1;
+    int num,den;
     friend ostream& operator<<(ostream& os, const rational& r);
     //friend istream& operator>>(istream& in, const rational& input);
 public:
