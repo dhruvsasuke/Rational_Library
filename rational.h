@@ -16,6 +16,8 @@ private:
     friend ostream& operator<<(ostream& os, const rational& r);
     //friend istream& operator>>(istream& in, const rational& input);
 public:
+    rational() : num(0), den(1) {}
+    explicit rational (int,int=1);
     virtual ~rational() {}
     int getNum();
     void setNum(int num);
