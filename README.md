@@ -9,10 +9,10 @@ The rational class uses int as the base data type for storing numerator and deno
 The constructor can be called using any of the fundamental integer types as numerator or denominator.
 
 <h2><b>Examples</h2></b>
-rational r; // Constructs with value of 0/1
-rational r(3,4); // Constructs with value of 3/4
-rational r(3); // Constructs with value of 3/1
-rational r('a',3); // Constructs with value of 97/3 (ASCII value of 'a' is 97)
+rational r; // Constructs with value of 0/1<br>
+rational r(3,4); // Constructs with value of 3/4<br>
+rational r(3); // Constructs with value of 3/1<br>
+rational r('a',3); // Constructs with value of 97/3 (ASCII value of 'a' is 97)<br>
 <h2><b>Operators</h2></b>
 The class supports arithmatic and relational operators.
 
