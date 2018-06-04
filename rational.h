@@ -17,7 +17,7 @@ private:
     //friend istream& operator>>(istream& in, const rational& input);
 public:
     rational() : num(0), den(1) {}
-    explicit rational (int,int=1);
+    explicit rational (int,int);
     virtual ~rational() {}
     int getNum();
     void setNum(int num);
@@ -41,6 +41,11 @@ public:
     explicit operator const float() const {return ((float)num/den);}
     explicit operator const double() const {return ((double)num/den);}
 };
+
+rational::rational(int num, int den) {
+    rational::num=num;
+    rational::den=den;
+}
 
 int rational::getNum() {
     return num;
