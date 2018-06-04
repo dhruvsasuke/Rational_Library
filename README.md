@@ -24,15 +24,15 @@ The operands can be both rational or fundamental integer types.
 The input and output stream operators are also overloaded for ease of use.
 
 <h2><b>Examples</h2></b>
-cin >> a >> b; // a and b are two rational objects
-cout << a << b; // a and b are two rational objects
-The intput format is x/y (3/4), if the denominator is not specified it is assumed to be 1.
+cin >> a >> b; // a and b are two rational objects<br>
+cout << a << b; // a and b are two rational objects<br>
+The intput format is x/y (3/4), if the denominator is not specified it is assumed to be 1.<br>
 
 The output format is also similar x/y (3/4).
 
-Other Member Function
-Other member functions of the class.
+Other Member Function<br>
+Other member functions of the class.<br>
 
-Simplify function for normalizing r.simplify(); // 6/8 is simplified to 3/4
-getNum for getting the value of numerator int num = r.getNum(); // returns the value of numerator
-getDen for getting the value of denominator int den = r.getDen(); // returns the value of denominator
+Simplify function for normalizing r.simplify(); // 6/8 is simplified to 3/4<br>
+getNum for getting the value of numerator int num = r.getNum(); // returns the value of numerator<br>
+getDen for getting the value of denominator int den = r.getDen(); // returns the value of denominator<br>
